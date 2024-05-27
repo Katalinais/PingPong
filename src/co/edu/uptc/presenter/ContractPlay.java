@@ -17,6 +17,12 @@ public interface ContractPlay {
 
         boolean getEndGame();
 
+        int getLeftScore();
+
+        int getRightScore();
+
+        void finishGame();
+
         void update(Rectangle bounds);
     }
 
@@ -35,6 +41,10 @@ public interface ContractPlay {
         void update(Rectangle bounds);
 
         boolean getEndGame();
+
+        int getLeftScore();
+
+        int getRightScore();
     }
 
     interface view{

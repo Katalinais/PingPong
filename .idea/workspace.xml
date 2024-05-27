@@ -6,15 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1dd9cea9-1690-40b6-a197-dc743a7ef2b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/model/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/model/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/model/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/model/Racket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/model/Racket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/pojo/ElementPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/pojo/ElementPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/presenter/ContractPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/presenter/ContractPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/presenter/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/utils/GameConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/utils/GameConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/view/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/view/DashBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/view/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/view/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.edu.uptc.view" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="co.edu.uptc.Run" />
@@ -97,7 +100,7 @@
       <workItem from="1715894555471" duration="4203000" />
       <workItem from="1716690074377" duration="5318000" />
       <workItem from="1716741370574" duration="4551000" />
-      <workItem from="1716753235420" duration="16614000" />
+      <workItem from="1716753235420" duration="30553000" />
     </task>
     <servers />
   </component>

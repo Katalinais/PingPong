@@ -55,12 +55,22 @@ public class Presenter implements ContractPlay.presenter{
 
     @Override
     public void update(Rectangle bounds){
+        model.finishGame();
         model.update(bounds);
     }
 
     @Override
     public boolean getEndGame(){
         return model.getEndGame();
+    }
+    @Override
+    public int getLeftScore(){
+        return model.getLeftScore();
+    }
+
+    @Override
+    public int getRightScore(){
+        return model.getRightScore();
     }
 
 }

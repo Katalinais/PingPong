@@ -11,6 +11,8 @@ public class Game implements ContractPlay.model {
     private ContractPlay.presenter presenter;
     private Racket racketLeft;
     private Racket racketRight;
+    private int leftScore;
+    private int rightScore;
     private Ball ball;
     private boolean endGame;
 
@@ -21,7 +23,9 @@ public class Game implements ContractPlay.model {
     public void initComponents(){
         racketLeft = new Racket(0,50,GameConstants.WIDTH_RACKET, GameConstants.HEIGHT_RACKET);
         racketRight = new Racket(GameConstants.GAME_WIDTH-30,50,GameConstants.WIDTH_RACKET, GameConstants.HEIGHT_RACKET);
-        ball = new Ball(50,50,GameConstants.WIDTH_BALL, GameConstants.HEIGHT_BALL);
+        ball = new Ball(200,300,GameConstants.WIDTH_BALL, GameConstants.HEIGHT_BALL,this);
+        rightScore = 0;
+        leftScore = 0;
         endGame = false;
     }
 
@@ -50,6 +54,24 @@ public class Game implements ContractPlay.model {
         return endGame;
     }
 
+    @Override
+    public int getLeftScore() {
+        return leftScore;
+    }
+
+    @Override
+    public int getRightScore() {
+        return rightScore;
+    }
+
+    public void pointLeft(){
+        leftScore++;
+    }
+
+    public void pointRight(){
+        rightScore++;
+    }
+
     public boolean collision(ElementPojo e1) {
         Rectangle racket = new Rectangle(e1.getX(), e1.getY(), e1.getWidth(), e1.getHeight());
         Rectangle ballRectangle = new Rectangle(ball.elementPojo.getX(), ball.elementPojo.getY(), ball.elementPojo.getWidth(), ball.elementPojo.getHeight());
@@ -57,7 +79,18 @@ public class Game implements ContractPlay.model {
     }
 
     @Override
+    public void finishGame(){
+        if (rightScore == 5 || leftScore == 5){
+            endGame = true;
+        }
+    }
+
+    @Override
     public void update(Rectangle bounds){
-        ball.move(bounds, collision(racketLeft.elementPojo), collision(racketRight.elementPojo));
+        if(!endGame){
+            ball.move(bounds, collision(racketLeft.elementPojo), collision(racketRight.elementPojo));
+            racketLeft.moveRacketLeft(bounds);
+            racketRight.moveRacketRight(bounds);
+        }
     }
 }
