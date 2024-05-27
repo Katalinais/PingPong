@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd9cea9-1690-40b6-a197-dc743a7ef2b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PingPong.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/model/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/model/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/model/Racket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/model/Racket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/pojo/ElementPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/pojo/ElementPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/presenter/ContractPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/presenter/ContractPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/presenter/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/utils/GameConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/utils/GameConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/uptc/view/DashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/uptc/view/DashBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,11 +55,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Run.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lakat/Universidad/Programacion_3/PingPong",
+    "last_opened_file_path": "C:/Users/lakat/Universidad/Teffy/ProyectoFinal",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +69,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="co.edu.uptc.Run" />
+      <module name="PingPong" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +95,9 @@
       <option name="presentableId" value="Default" />
       <updated>1715894554415</updated>
       <workItem from="1715894555471" duration="4203000" />
-      <workItem from="1716690074377" duration="1890000" />
+      <workItem from="1716690074377" duration="5318000" />
+      <workItem from="1716741370574" duration="4551000" />
+      <workItem from="1716753235420" duration="16614000" />
     </task>
     <servers />
   </component>

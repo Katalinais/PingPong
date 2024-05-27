@@ -1,7 +1,11 @@
 package co.edu.uptc.presenter;
 
+import co.edu.uptc.model.Ball;
 import co.edu.uptc.model.Game;
+import co.edu.uptc.model.Racket;
 import co.edu.uptc.view.DashBoard;
+
+import java.awt.*;
 
 public class Presenter implements ContractPlay.presenter{
     private ContractPlay.model model;
@@ -20,6 +24,8 @@ public class Presenter implements ContractPlay.presenter{
 
         setModel(game);
         setView(dashBoard);
+
+        view.updateScreen();
     }
 
     @Override
@@ -31,4 +37,30 @@ public class Presenter implements ContractPlay.presenter{
     public void setView(ContractPlay.view view){
         this.view = view;
     }
+
+
+    @Override
+    public Ball getBall(){
+        return model.getBall();
+    }
+
+    @Override
+    public Racket getRacketLeft(){
+        return model.getRacketLeft();
+    }
+    @Override
+    public Racket getRacketRight(){
+        return model.getRacketRight();
+    }
+
+    @Override
+    public void update(Rectangle bounds){
+        model.update(bounds);
+    }
+
+    @Override
+    public boolean getEndGame(){
+        return model.getEndGame();
+    }
+
 }

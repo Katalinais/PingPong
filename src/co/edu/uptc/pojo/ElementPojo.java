@@ -1,10 +1,10 @@
 package co.edu.uptc.pojo;
 
 public class ElementPojo {
-    private int x;
-    private int y;
-    private int width;
-    private int height;
+    protected int x;
+    protected int y;
+    protected int width;
+    protected int height;
 
     public int getX() {
         return x;

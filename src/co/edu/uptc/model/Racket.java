@@ -2,20 +2,20 @@ package co.edu.uptc.model;
 
 import co.edu.uptc.pojo.ElementPojo;
 
-public class Racket extends ElementPojo {
+public class Racket extends GameObject {
 
     public Racket(int x, int y, int width, int height) {
-        this.setX(x);
-        this.setY(y);
-        this.setWidth(width);
-        this.setHeight(height);
+       elementPojo.setX(x);
+       elementPojo.setY(y);
+       elementPojo.setWidth(width);
+       elementPojo.setHeight(height);
     }
 
     public void moveUp() {
-        setY(getY() - 5);
+        elementPojo.setY(elementPojo.getY() + speed);
     }
 
     public void moveDown() {
-        setY(getY() + 5);
+        elementPojo.setY(elementPojo.getY() - speed);
     }
 }
